@@ -17,7 +17,7 @@ app.use(
 );
 
 // Start server
-var HTTP_PORT = 8000;
+var HTTP_PORT = 8080;
 
 app.listen(HTTP_PORT, () => {
   console.log("Server running on port %PORT%".replace("%PORT%", HTTP_PORT));
